@@ -1,2 +1,6 @@
 html {
-  
+  box-sizing: border-box;
+  font-family: Karma, serif;
+  line-height: 1.5;
+  margin: 0;
+}
