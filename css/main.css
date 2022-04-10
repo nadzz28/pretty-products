@@ -72,3 +72,7 @@ h2, p {
   padding-right: 4.05rem;
   padding-bottom: .8rem;
 }
+
+.add-to-cart-button {
+  font-family: Oswald, sans-serif;
+  display: inline-block;
