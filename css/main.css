@@ -76,3 +76,8 @@ h2, p {
 .add-to-cart-button {
   font-family: Oswald, sans-serif;
   display: inline-block;
+  background-color: #6f00e7;
+  color: white;
+  border-radius: 3em;
+  text-decoration: none;
+  padding-top: .5em;
