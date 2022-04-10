@@ -85,5 +85,5 @@ h2, p {
   padding-left: 1.5em;
   padding-right: 1.5em;
   margin: 1rem;
-  justify-content
+  justify-content: flex-start;
 }
