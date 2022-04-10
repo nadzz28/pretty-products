@@ -64,3 +64,11 @@ h2, p {
   margin: .1rem;
   padding-top: .4rem;
 }
+
+.item {
+  width: 110%;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4.05rem;
+  padding-bottom: .8rem;
+}
