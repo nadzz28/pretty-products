@@ -1,69 +1,86 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
   font-family: Karma, serif;
-  font-size: 1.5rem;
-  background-color: #fff;
-  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-ol {
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
 }
 
-ol li {
-  display: flex;
-  border: 3px solid #987ffa;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 6px;
+li {
   list-style: none;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
 }
 
-.big {
-  width: 65%;
-  padding-top: 1rem;
+ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
   font-family: Oswald, sans-serif;
+  margin: 0;
   color: #6f00e7;
   font-size: 2rem;
+  text-align: center;
   font-weight: 900;
-  padding: 1rem 4rem;
-  margin: 0;
-}
-
-.cart {
-  font-family: Oswald, sans-serif;
-  background-color: #6f00e7;
-  border-radius: 3em;
-  color: #fff;
-  text-decoration: none;
-  padding: .3em 1.5em .6em;
-  margin: 1rem;
-}
-
-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 p {
   margin: 0;
-  padding: 0 1rem;
+  font-family: Karma, serif;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .1em;
+  padding-bottom: .5em;
 }
 
-.heart {
-  padding-left: 10rem;
-  padding-right: .3rem;
+.products {
+  max-width: 100%;
+  padding-top: 1rem;
+  padding-left: 4.05rem;
+  padding-right: 4.05rem;
+  padding-bottom: 1rem;
+}
+
+.cart-button {
+  font-family: Oswald, sans-serif;
+  display: inline-block;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  color: white;
+  text-decoration: none;
+  padding-top: .3em;
+  padding-bottom: .6em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin: 1rem;
+}
+
+.share {
+  align-content: flex-end;
+}
+
+div {
+  justify-content: space-between;
 }
