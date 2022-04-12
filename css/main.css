@@ -18,7 +18,7 @@ body {
 ol {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  gap: 1rem;
+  gap: 3rem;
   margin-bottom: 0;
   padding-left: 1rem;
   padding-right: 1rem;
